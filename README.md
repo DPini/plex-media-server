@@ -13,6 +13,9 @@
 [![Build Status](https://drone.spritsail.io/api/badges/spritsail/plex-media-server/status.svg)][drone]
 [![Last Build](https://api.spritsail.io/badge/lastbuild/spritsail/plex-media-server:latest)][drone]
 
+**_This fork disables executable stack on all libraries to test a theoretical bug with the PMS release and SELinux_**
+See also: https://forums.plex.tv/t/pms-0-9-12-on-selinux/101652/3
+
 The _smallest*_ Plex Media Server docker image, built on barebones [spritsail/busybox](https://hub.docker.com/spritsail/busybox/) with glibc and libraries built from source. The container hosts a fully featured Plex Media Server, with almost all of the useless crap removed, resulting in the smallest container possible whilst maintaining full functionality.
 
 You can find out more about the [spritsail/busybox](https://hub.docker.com/r/spritsail/busybox) base image [here](https://github.com/spritsail/busybox)
